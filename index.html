@@ -9,7 +9,7 @@
 
   <script>
     function chamarBackend() {
-      fetch('https://backenddoteste.onrender.com/')
+      fetch('https://backenddoteste.onrender.com/log')
         .then(response => response.text())
         .then(data => {
           console.log('Resposta do backend:', data);
